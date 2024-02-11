@@ -1,0 +1,64 @@
+body{
+   width:500px;
+   height:100px;
+   display:inline-block;
+   background-color: #858585;
+   color:black;
+   }
+
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+a    { text-decoration: none; }
+p    { text-align: center; }
+sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
+button{
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 15px ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+#p1
+{
+	font-size:20px;
+	margin-bottom: 5px;
+	display:inline-block;
+}
+
+#div1
+{
+	vertical-align: middle;
+	line-height: 50px; /* the same as your div height*/
+	text-align:center;
+	font-size:18px;
+}
+
